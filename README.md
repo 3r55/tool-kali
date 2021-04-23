@@ -7,4 +7,5 @@
 • chmod +x kali-tools.py
 • python3 kali-tools.py
 ```
-![Captura de pantalla 2021-02-11 14^%46^%10](https://user-images.githubusercontent.com/75953873/107677303-df1c9600-6c78-11eb-822e-71ca45997a27.png)
+![Captura de pantalla 2021-04-23 09^%14^%38](https://user-images.githubusercontent.com/75953873/115884410-426b3700-a425-11eb-8120-ce78b8dc449e.png)
+

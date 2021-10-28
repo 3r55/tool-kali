@@ -1,10 +1,12 @@
 # KALI TOOLS
 
+
+![Captura de pantalla (405)](https://user-images.githubusercontent.com/75953873/139342409-a3fa025a-94c0-4226-b80b-434819285bf5.png)
+
 ### Instalar / Install
 ```
 • git clone https://github.com/R3LI4NT/kali-tools
 • cd kali-tools
 • python3 kali-tools.py
 ```
-![Captura de pantalla 2021-04-23 09^%14^%38](https://user-images.githubusercontent.com/75953873/115884410-426b3700-a425-11eb-8120-ce78b8dc449e.png)
 

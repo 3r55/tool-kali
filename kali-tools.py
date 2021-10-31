@@ -48,7 +48,7 @@ def menu():
 \033[1;37m(6)\033[0;m \033[0;32mSQLmap\033[0;m             \033[1;37m(16)\033[0;m \033[0;32mNcrack\033[0;m        \033[1;37m(26)\033[0;m \033[0;32mArmitage\033[0;m       \033[1;37m(36)\033[0;m \033[0;32mMITMproxy\033[0;m
 \033[1;37m(7)\033[0;m \033[0;32mAircrack-ng\033[0;m        \033[1;37m(17)\033[0;m \033[0;32mHydra\033[0;m         \033[1;37m(27)\033[0;m \033[0;32mArping\033[0;m         \033[1;37m(37)\033[0;m \033[0;32mHashDeep\033[0;m
 \033[1;37m(8)\033[0;m \033[0;32mHashCat\033[0;m            \033[1;37m(18)\033[0;m \033[0;32mEttercap\033[0;m      \033[1;37m(28)\033[0;m \033[0;32mProxyChains\033[0;m    \033[1;37m(38)\033[0;m \033[0;32mPixieWPS\033[0;m
-\033[1;37m(9)\033[0;m \033[0;32mLegion\033[0;m             \033[1;37m(19)\033[0;m \033[0;32mMACchanger\033[0;m    \033[1;37m(29)\033[0;m \033[0;32mTor-Browser\033[0;m    \033[1;37m(39)\033[0;m \033[0;32mNcrack\033[0;m
+\033[1;37m(9)\033[0;m \033[0;32mLegion\033[0;m             \033[1;37m(19)\033[0;m \033[0;32mMACchanger\033[0;m    \033[1;37m(29)\033[0;m \033[0;32mTor-Browser\033[0;m    \033[1;37m(39)\033[0;m \033[0;32mOphcrack\033[0;m
 \033[1;37m(10)\033[0;m \033[0;32mWPScan\033[0;m            \033[1;37m(20)\033[0;m \033[0;32mDNSchef\033[0;m       \033[1;37m(30)\033[0;m \033[0;32mTorGhost\033[0;m       \033[1;37m(0)\033[0;m \033[0;31mSalir\033[0;m\033[0;37m/\033[0;m\033[0;31mExit\033[0;m
 """)
 menu()
@@ -183,11 +183,11 @@ elif X == 38:
     tool = os.system("sudo apt-get install pixiewps")
     restart()
 elif X == 39:
-    tool = os.system("sudo apt install ncrack")
+    tool = os.system("sudo apt-get install ophcrack")
     restart()                                         
 elif X == 0:
     tool = os.system("exit")
     time.sleep(1)
     print("\n\033[1;32mGracias por usar este script, vuelve nuevamente\033[0;m\033[1;37m!\033[0;m")
 else:
-    print("\033[1;31m\nError:\033[0;m Opción inválida, intente nuevamente")                                                                  
+    print("\033[1;31m\nError:\033[0;m Opción inválida, intente nuevamente") 

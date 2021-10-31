@@ -1,7 +1,7 @@
 # KALI TOOLS
 
 
-![Captura de pantalla (405)](https://user-images.githubusercontent.com/75953873/139342409-a3fa025a-94c0-4226-b80b-434819285bf5.png)
+![kali-tools](https://user-images.githubusercontent.com/75953873/139563573-ede23f8e-709e-4e97-8083-831e7a35187d.png)
 
 </br>
 

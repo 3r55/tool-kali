@@ -49,7 +49,8 @@ def menu():
 \033[1;37m(7)\033[0;m \033[0;32mAircrack-ng\033[0;m        \033[1;37m(17)\033[0;m \033[0;32mHydra\033[0;m         \033[1;37m(27)\033[0;m \033[0;32mArping\033[0;m         \033[1;37m(37)\033[0;m \033[0;32mHashDeep\033[0;m
 \033[1;37m(8)\033[0;m \033[0;32mHashCat\033[0;m            \033[1;37m(18)\033[0;m \033[0;32mEttercap\033[0;m      \033[1;37m(28)\033[0;m \033[0;32mProxyChains\033[0;m    \033[1;37m(38)\033[0;m \033[0;32mPixieWPS\033[0;m
 \033[1;37m(9)\033[0;m \033[0;32mLegion\033[0;m             \033[1;37m(19)\033[0;m \033[0;32mMACchanger\033[0;m    \033[1;37m(29)\033[0;m \033[0;32mTor-Browser\033[0;m    \033[1;37m(39)\033[0;m \033[0;32mOphcrack\033[0;m
-\033[1;37m(10)\033[0;m \033[0;32mWPScan\033[0;m            \033[1;37m(20)\033[0;m \033[0;32mDNSchef\033[0;m       \033[1;37m(30)\033[0;m \033[0;32mTorGhost\033[0;m       \033[1;37m(0)\033[0;m \033[0;31mSalir\033[0;m\033[0;37m/\033[0;m\033[0;31mExit\033[0;m
+\033[1;37m(10)\033[0;m \033[0;32mWPScan\033[0;m            \033[1;37m(20)\033[0;m \033[0;32mDNSchef\033[0;m       \033[1;37m(30)\033[0;m \033[0;32mTorGhost\033[0;m       \033[1;37m(40)\033[0;m \033[0;32mSearchSploit\033[0;m
+\033[1;37m(0)\033[0;m \033[0;31mSalir\033[0;m\033[0;37m/\033[0;m\033[0;31mExit\033[0;m                                                                                                                                                              
 """)
 menu()
 
@@ -184,7 +185,10 @@ elif X == 38:
     restart()
 elif X == 39:
     tool = os.system("sudo apt-get install ophcrack")
-    restart()                                         
+    restart()
+elif X == 40:
+    tool = os.system("sudo apt update && sudo apt -y install exploitdb")
+    restart()                                             
 elif X == 0:
     tool = os.system("exit")
     time.sleep(1)

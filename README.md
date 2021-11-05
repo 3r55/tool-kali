@@ -1,7 +1,7 @@
 # KALI TOOLS
 
 
-![kali-tools](https://user-images.githubusercontent.com/75953873/139604385-26649b61-3d7e-4177-866f-d292f55f13b9.png)
+![kali-tools](https://user-images.githubusercontent.com/75953873/140532652-fc4187ec-d5c0-405f-a99f-b8430a7ce10b.png)
 
 </br>
 

@@ -5,7 +5,7 @@
 
 </br>
 
-## Tested:
+## Tested On:
 
 ### [✔] Ubuntu
 
